@@ -1,0 +1,52 @@
+/* Apply Montserrat font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply Open Sans font to paragraphs */
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0px;
+}
+.st-section h2{
+    color: #19213d;
+    margin-bottom: 12px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+}
+.st-section p{
+    color: #667097;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.st-section{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec-1{
+   
+    margin:40px 0px 40px 0px;
+    
+    background-image: linear-gradient(#fff 6%, #f6f8fc 6%, #f6f8fc 94%, #fff 94%);
+}
+
+.div-1{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    grid-column-gap: 16px;
+    background-color: #fff;
+    border: 1px solid #ebeff6;
+    border-radius: 64px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 4px 12px rgba(20, 20, 43, .04);
+}

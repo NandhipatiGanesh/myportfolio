@@ -1,11 +1,17 @@
 /* Apply Montserrat font to headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    color: #19213d;
 }
-
+strong{
+    color: #19213d !important;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
 /* Apply Open Sans font to paragraphs */
-p {
+p, li, strong {
     font-family: 'Open Sans', sans-serif;
+    color: #667097;
 }
 body{
     margin: 0px;
@@ -71,13 +77,22 @@ body{
    align-content: flex-start;
 }
 .ab{
-    padding: 20px;
+    padding: 40px 20px 40px 20px;
+}
+.ab li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.ab p{
+    color: #868da6;
+    font-size: 18px;
+    line-height: 25px;
 }
 .abc{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 15px 0px 15px;
+    padding: 25px 25px 0px 25px;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
     overflow: hidden;
@@ -86,4 +101,8 @@ body{
     object-fit: cover;
     align-self: stretch;
     vertical-align: middle;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    max-width: 100%;
+    height: 400px;
 }

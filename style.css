@@ -6,13 +6,12 @@ h1, h2, h3, h4, h5, h6 {
 strong{
     color: #19213d !important;
     font-size: 19px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /* Apply Open Sans font to paragraphs */
 p, li, strong {
-    font-family: 'Open Sans', sans-serif;
-    color: #667097;
-}
+    font-family: 'Poppins', sans-serif;
+  }
 body{
     margin: 0px;
 }
@@ -39,7 +38,7 @@ body{
 .box{    
     background-color: #fff;
     border: 1px solid #ebeff6;
-    border-radius: 64px;
+    border-radius: 16px;
     justify-content: flex-end;
     align-items: center;
     display: flex;
@@ -57,8 +56,45 @@ body{
     background-color: #fff;
     color: #444;
   }
-
- 
+  /*screensize adjustment */
+@media only screen and (max-width: 768px) {
+    .st-section{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+  @media (max-width: 600px) {
+    .wrapper {
+      grid-template-columns: 100%; /* Single column for screens up to 400px */
+    }
+  
+    .a {
+      grid-column: 1 !important;
+      grid-row: auto !important; /* Allow it to flow naturally in a single column */
+    }
+  
+    .b {
+      grid-column: 1 !important;
+      grid-row: auto !important; /* Allow it to flow naturally in a single column */
+    }
+  
+    .c {
+      grid-column: 1 !important;
+      grid-row: auto !important; /* Allow it to flow naturally in a single column */
+    }
+    .abc img{
+        object-fit: cover;
+        align-self: stretch;
+        vertical-align: middle;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+  }
+  
+  
 
   .a {
     grid-column: 1 ;
@@ -82,6 +118,7 @@ body{
 .ab li{
     list-style: none;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 .ab p{
     color: #868da6;
@@ -93,8 +130,8 @@ body{
     justify-content: center;
     align-items: center;
     padding: 25px 25px 0px 25px;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     overflow: hidden;
 }
 .abc img{

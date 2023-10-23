@@ -143,6 +143,29 @@ body{
     max-width: 100%;
     height: 400px;
 }
-.right-b{
+
+.box-b-b img{
+  width: 100%;
+  height: auto;
+}
+.box-b{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
   display: flex;
+}
+.box-b-a{
+  max-width: 45%;
+  min-width: 48%;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  display: flex;
+}
+.box-b-b{
+  width: 56%;
+    flex-direction: row;
+    align-self: stretch;
+    background-color: #19213d;
+    padding: 10px;
 }
